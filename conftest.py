@@ -18,6 +18,7 @@ def pytest_html_report_title(report):
     report.title = "Columbia Python Automation !!"
 
 
+
 def pytest_sessionstart() -> None:
     """Loading sensitive data from environment variables.
 
